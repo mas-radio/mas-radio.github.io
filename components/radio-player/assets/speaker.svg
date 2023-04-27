@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Capa_2"
+   data-name="Capa 2"
+   viewBox="0 0 25 25"
+   version="1.1"
+   sodipodi:docname="speaker.svg"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="18.36"
+     inkscape:cx="12.5"
+     inkscape:cy="12.472767"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_2" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+.cls-1 { 
+    fill:#5c90ce;
+}
+.cls-2 { 
+    fill:#fff;
+}
+    </style>
+  </defs>
+  <g
+     id="Capa_1-2"
+     data-name="Capa 1">
+    <g
+       id="g5">
+      <circle
+         class="cls-1"
+         cx="12.5"
+         cy="12.5"
+         r="12.5"
+         id="circle1"
+         style="" />
+      <g
+         id="g4">
+        <path
+           class="cls-2"
+           d="m12.72,7.44l-2.82,2.89c-.01-.21-.18-.37-.39-.37h-2.32c-.22,0-.4.18-.4.4v4.4c0,.22.18.4.4.4h2.32c.22,0,.4-.18.4-.4v-.1l2.82,2.89c.16.17.43.04.43-.21V7.65c0-.25-.26-.38-.43-.21Z"
+           id="path1"
+           style="" />
+        <g
+           id="g3">
+          <path
+             class="cls-2"
+             d="m17.09,15.94c-.06,0-.13-.01-.19-.04-.25-.1-.37-.39-.26-.64.4-.95.6-1.97.6-3.03,0-.85-.14-1.7-.41-2.53-.08-.26.06-.53.31-.62.26-.08.53.06.62.31.3.93.45,1.89.45,2.83,0,1.2-.23,2.34-.68,3.41-.08.19-.26.3-.45.3Z"
+             id="path2"
+             style="" />
+          <path
+             class="cls-2"
+             d="m14.68,14.95c-.06,0-.13-.01-.19-.04-.25-.1-.37-.39-.26-.64.27-.65.41-1.34.41-2.04,0-.59-.09-1.14-.27-1.7-.09-.26.05-.53.31-.62.26-.09.53.05.62.31.22.65.32,1.32.32,2.01,0,.83-.16,1.65-.48,2.42-.08.19-.26.3-.45.3Z"
+             id="path3"
+             style="" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
