@@ -1,0 +1,20 @@
+{
+  "configurations": {
+    "run": {
+      "adapter": "firefox",
+      "filetypes": [ "javascript", "typescript" ],
+      "configuration": {
+        "request": "launch",
+        "stopOnEntry": false,
+        "url":"localhost:3000",
+        "reAttach": true,
+        "pathMappings": [
+          {
+              "url": "webpack:///",
+              "path": "${workspaceFolder}/"
+          }
+        ]
+      }
+    }
+  }
+}

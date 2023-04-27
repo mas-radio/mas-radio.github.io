@@ -1,0 +1,4 @@
+doc/business
+node_modules/
+www/
+.*.swp

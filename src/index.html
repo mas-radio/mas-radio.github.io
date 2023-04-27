@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+  <head>
+    <title>Más Radio | Mucho más que una radio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" media="only screen and (min-width: 600px)" href="computer.css">
+
+    <script>
+    </script>
+  </head>
+
+  <body>
+    <header-component id="masradio-header"></header-component>
+    <section id="body-content">
+      <radiohosting-player
+        id="masradio-audio-player"
+        src="https://tv.radiohosting.online:8046/stream">
+      </radiohosting-player>
+      <div class="featured-media">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bZ-vGw56itY?si=qNGLFe5bo22scuhG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <iframe class="iframe-chat" src="https://webchat.oftc.net/?randomnick=1&channels=masradio&uio=MTE9NjImMTM9ZmFsc2UmMTQ9ZmFsc2U4d" ></iframe>
+    </section>
+    <mas-radio-footer-component></mas-radio-footer-component>
+  </body>
+</html>
+

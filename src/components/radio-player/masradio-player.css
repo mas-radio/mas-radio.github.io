@@ -1,0 +1,96 @@
+.masradio-reproductor-audio{
+  display:flex;
+  align-items:center;
+  background:#333333;
+  border-radius: 0px 0px 10px 0px;
+  margin:auto;
+}
+
+@media (min-width:800px){
+  .masradio-reproductor-audio{
+    max-width:50vw;
+  }
+}
+
+.volume_controls{
+  display:flex;
+  justify-content:right;
+}
+
+.track_data{
+  color:white;
+  font-style:italic;
+  margin:1em;
+}
+
+#player_controls{
+  display:flex;
+}
+
+img#mute_button{
+  width:2em;
+}
+
+button.gray{
+  filter:grayscale(100%);
+}
+
+button.disabled{
+  pointer-events:none;
+}
+
+.stop {
+  background: url(assets/stop_button.svg) no-repeat center;
+}
+.play {
+  background: url(assets/play_button.svg) no-repeat center;
+}
+.control_button {
+  width:3em;
+  height:3em;
+  border:none;
+  cursor:pointer;
+}
+
+.speaker {
+  width:2em;
+  background: url(assets/speaker.svg) no-repeat center;
+  border:none;
+  cursor:pointer;
+}
+
+.track_data  #track_artist.offline::after{
+  content:"Fuera de l\00EDnea";
+}
+
+.track_data #track_artist::after{
+  content:"-";
+  margin:0.5em;
+}
+
+.streaming_controls{
+  margin:1em;
+}
+
+.album_cover{
+  background-color:black;
+  width:140px;
+  height:140px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+img#featured_image{
+  min-width:120px;
+  margin:2em;
+}
+
+
+input[type=range] {
+  /*-webkit-appearance: none;*/
+  /*margin: 10px 0;*/
+  width: 4em;
+  /*background:none;*/
+  margin:0.5em;
+}

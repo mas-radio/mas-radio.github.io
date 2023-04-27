@@ -1,0 +1,39 @@
+footer {
+    background: #2b2a28;
+    padding:1em 0.5em;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+}
+
+footer p{
+  margin: 0px;
+}
+
+footer .footer-legend{
+  text-align:center;
+}
+
+footer img {
+  max-height:30px;
+  display:inline;
+}
+
+footer a::before{
+  display:inline-block;
+  width:2.5em;
+}
+footer a#facebook_href::before{
+  content:url('assets/social-media-facebook.svg');
+}
+
+footer a#instagram_href::before{
+  content:url('assets/social-media-instagram.svg');
+}
+footer a#x_href::before{
+  content:url('assets/social-media-x.svg');
+}
+footer nav {
+  display:inline;
+}
