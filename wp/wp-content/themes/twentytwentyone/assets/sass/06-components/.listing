@@ -1,0 +1,16 @@
+drwxr-xr-x    2 masradione masradione       4096 Apr 11  2022 .
+drwxr-xr-x    9 masradione masradione       4096 Apr 11  2022 ..
+-rw-r--r--    1 masradione masradione        132 Nov 13  2020 404.scss
+-rw-r--r--    1 masradione masradione       1028 Nov 13  2020 archives.scss
+-rw-r--r--    1 masradione masradione       4532 Feb  3  2021 comments.scss
+-rw-r--r--    1 masradione masradione       1104 Dec  2  2020 editor.scss
+-rw-r--r--    1 masradione masradione       4097 Dec 17  2020 entry.scss
+-rw-r--r--    1 masradione masradione       1446 Dec  2  2020 footer-navigation.scss
+-rw-r--r--    1 masradione masradione       1782 Nov 10  2021 footer.scss
+-rw-r--r--    1 masradione masradione       4111 Feb  2  2021 header.scss
+-rw-r--r--    1 masradione masradione      10242 Jan 27  2021 navigation.scss
+-rw-r--r--    1 masradione masradione       4319 Dec  2  2020 pagination.scss
+-rw-r--r--    1 masradione masradione        469 Nov 13  2020 posts-and-pages.scss
+-rw-r--r--    1 masradione masradione         93 Nov 13  2020 search.scss
+-rw-r--r--    1 masradione masradione        440 Nov 13  2020 single.scss
+-rw-r--r--    1 masradione masradione       2745 Nov 24  2021 widgets.scss

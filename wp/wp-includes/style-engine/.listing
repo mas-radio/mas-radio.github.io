@@ -1,0 +1,7 @@
+drwxr-xr-x    2 masradione masradione       4096 Nov  3  2022 .
+drwxr-xr-x   27 masradione masradione      12288 Nov  7 19:10 ..
+-rw-r--r--    1 masradione masradione       5197 Aug  8 20:05 class-wp-style-engine-css-declarations.php
+-rw-r--r--    1 masradione masradione       4068 Aug  8 20:05 class-wp-style-engine-css-rule.php
+-rw-r--r--    1 masradione masradione       3115 Aug  8 20:05 class-wp-style-engine-css-rules-store.php
+-rw-r--r--    1 masradione masradione       4688 Nov  7 19:10 class-wp-style-engine-processor.php
+-rw-r--r--    1 masradione masradione      25904 Nov  7 19:10 class-wp-style-engine.php

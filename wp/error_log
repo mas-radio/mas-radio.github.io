@@ -1,0 +1,14 @@
+[11-Apr-2022 20:43:54 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/masradionet/public_html/wp/wp-content/themes/popularfx/header.php on line 60
+[11-Apr-2022 20:47:03 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/masradionet/public_html/wp/wp-content/themes/popularfx/header.php on line 59
+[11-Apr-2022 20:47:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/masradionet/public_html/wp/wp-content/themes/popularfx/header.php on line 59
+[14-May-2022 12:23:15 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/masradionet/public_html/wp/wp-includes/wp-db.php on line 2162
+[14-May-2022 12:23:16 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/masradionet/public_html/wp/wp-includes/wp-db.php on line 2162
+[31-Aug-2022 03:59:53 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/masradionet/public_html/wp/wp-includes/wp-db.php on line 2169
+[31-Aug-2022 03:59:53 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/masradionet/public_html/wp/wp-includes/wp-db.php on line 2169
+[28-Sep-2022 07:13:55 UTC] PHP Warning:  Error while sending QUERY packet. PID=20149 in /home/masradionet/public_html/wp/wp-includes/wp-db.php on line 2169
+[07-May-2023 12:25:39 UTC] Error de evento de reprogramación de cron para el gancho: wp_version_check. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"twicedaily","args":[],"interval":43200}
+[22-May-2023 09:56:31 UTC] Error de evento de reprogramación de cron para el gancho: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[29-Jul-2023 10:50:03 UTC] Error de evento de reprogramación de cron para el gancho: wp_update_plugins. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"twicedaily","args":[],"interval":43200}
+[05-Sep-2023 11:28:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=13769 in /home/masradionet/public_html/wp/wp-includes/class-wpdb.php on line 2459
+[05-Sep-2023 11:28:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=13753 in /home/masradionet/public_html/wp/wp-includes/class-wpdb.php on line 2459
+[19-Oct-2023 11:44:31 UTC] PHP Warning:  Error while sending QUERY packet. PID=7590 in /home/masradionet/public_html/wp/wp-includes/class-wpdb.php on line 2459

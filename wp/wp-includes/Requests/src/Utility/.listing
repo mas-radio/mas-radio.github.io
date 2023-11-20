@@ -1,0 +1,5 @@
+drwxr-xr-x    2 masradione masradione       4096 Mar 29  2023 .
+drwxr-xr-x    9 masradione masradione       4096 Mar 29  2023 ..
+-rw-r--r--    1 masradione masradione       2507 Aug  8 20:05 CaseInsensitiveDictionary.php
+-rw-r--r--    1 masradione masradione       2157 Aug  8 20:05 FilteredIterator.php
+-rw-r--r--    1 masradione masradione       2512 Mar 29  2023 InputValidator.php

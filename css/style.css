@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1820;
+    font-family: 'DM sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo,
+.chat,
+.anuncio,
+.locutores,
+.programas,
+.fin{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+
+.reproductor{
+    max-width: 80%;
+    width: 70%;
+    height: 70px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reproductor{
+    border: #47cfff;
+}
+
+
+.logo,.reproductor, .chat, .anuncio, .programas{
+    margin-top:10px;
+}
+
+.logo img{
+    margin-left: 10px;
+    width: 100px;
+}
+.logo h1{
+    margin-left: 10px;
+    width: 80%;
+    top: center;
+    color: whitesmoke;
+}
+
+.reproductor{
+    background-color: #47cfac;
+}
+
+.chat{
+    background-color: blue;
+    align-items:center;
+}
+
+.anuncio{
+    margin-top:50px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    height: 126px;
+    width: 100%;
+    overflow: hidden;
+}
+.anuncio ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    
+    animation: cambio 20s infinite;
+    animation-direction: alternate; /*ACTIVAR CUANDO SEAN TODOS LOS PATROCINADORES */
+    animation-timing-function: ease-in;
+    justify-items: center;
+    align-items: center;
+}
+.anuncio li{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+.anuncio img{
+    border-radius:10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@keyframes cambio{
+    
+    0% { margin-left: 0;}
+    25% {margin-left: 0;}
+
+    30% {margin-left: -100%;}
+    55% {margin-left: -100%;}
+
+    60% {margin-left: -200%;}
+    95% {margin-left: -200%;}
+}
+
+.locutor-list{
+	display: flex;
+	flex-wrap: wrap;
+}   
+.locutor{
+	margin: 10px;
+	width: 98%;
+	flex-shrink: 0;
+	border-radius: 0px;
+	overflow: hidden;
+	/*background: #f4fbff; */
+}
+.locutor-title{
+	margin-left: 0px;
+}
+.locutor img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.locutor-detail{
+	margin: 20px 10px;
+	margin-top: -25px;
+	/*background-color: white; */
+	position: relative;
+	padding: 20px;
+	text-align: left;
+    color:#47cfac;
+    font-size: x-large;
+}
+.locutor-description{
+	text-align: left;
+    font-size: large;
+    color: #000;
+}
+.locutor-link{
+	color: #000;
+	border: 1px solid;
+	padding: 5px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+    font-size:medium ;
+}
+
+/*.contenedor{
+		margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}*/
+
+.contenedor-locutores{
+    display: grid;
+    color: chartreuse;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.contenedor-locutores{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px #000;
+    border-color: aquamarine;
+    place-content: center;
+    border: 15px;
+ 
+    grid-template-columns: minmax(150px, 370px) ;
+    grid-auto-rows: minmax(150px, 300px);
+
+
+    gap: 10px;
+
+}
+
+.arturo{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/Sarturo.jpg');
+    background-size: cover;
+}
+
+.jahir{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/Sjahir.jpg');
+    background-size: cover;
+   
+}
+
+.caro{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/Scaro.jpg');
+    background-size: cover;
+
+}
+
+.abrego{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/Sabrego.jpg');
+    background-size: cover;
+     
+}
+.david{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/Sdavid.jpg');
+    background-size: cover;
+ 
+}
+.fernando{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/Sfer.jpg');
+    background-size: cover;
+    
+ 
+}
+.ricalde{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/ricalde.jpg');
+    background-size: cover;
+    
+ 
+}
+.kika{
+    border: 20px #000;
+    border-color: blue;
+    background-image: url('../images/Skika.jpg');
+    background-size: cover;
+    
+ 
+}
+
+.arturo, .abrego, .caro, .david, .fernando, .jahir, .ricalde, .kika{
+    border-radius: 10px;
+    gap: 10px;
+    background-color: gray;
+    
+}
+
+.programas{
+    /*background-image:url('../images/ro.jpg');*/
+    display: flex;
+    
+    min-height: 150px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.programaslider{
+    display: flex;
+    background-color:yellowgreen;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+}
+    .programaslider img{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.7s;
+    }
+
+    .programaslider input[type="radio"]{
+        position: relative;
+        z-index: 50;
+        margin: 10px;
+    }
+
+    .programaslider input[type="radio"]:checked ~ img{
+        opacity:1;
+    }
+
+    .fin{
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:  repeat(4, auto);
+     
+        grid-auto-flow: row;
+        justify-items: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .redes-title{
+        display: grid;
+    
+        grid-column: 1/4;
+        color: aliceblue;
+    }
+    
+
+    
+    .facebook{
+        display: grid;
+    
+        width: 52px;
+        grid-row:2;
+        grid-column: 1;
+        justify-self: center;
+    }
+    
+    .facebook img, .instagram img, .twitter img{
+        width: 52px;
+        margin-bottom: 35px;
+    }
+    
+    .instagram{
+        display: grid;
+    
+        width: 52px;
+        grid-row:2;
+        grid-column: 2;
+        justify-self: center;
+    }
+    .twitter{
+        display: grid;
+       
+        width: 52px;
+        grid-row: 2;
+        grid-column: 3;
+        justify-self: center;
+    }
+    
+    .firma-title{
+        display: grid;
+        
+        grid-row: 3;
+        grid-column: 1/4;
+        color: aliceblue;
+        justify-self: center;
+    }
+    
+    .firma-img{
+        display: grid;
+        grid-row: 4;
+        grid-column: 1/4;
+        align-self: start;
+    }

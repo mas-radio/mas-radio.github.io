@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://masradio.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://masradio.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.masradio.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.masradio.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://masradio.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://masradio.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.masradio.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.masradio.net$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]

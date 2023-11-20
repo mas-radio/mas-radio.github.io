@@ -1,0 +1,17 @@
+drwxr-xr-x    5 masradione masradione       4096 Apr 11  2022 .
+drwxr-xr-x    3 masradione masradione       4096 Apr 11  2022 ..
+-rw-r--r--    1 masradione masradione       2280 May 12  2021 blog-template.pgl
+drwxr-xr-x    5 masradione masradione       4096 Apr 11  2022 data
+-rw-r--r--    1 masradione masradione      10099 May 12  2021 footer.pgl
+-rw-r--r--    1 masradione masradione       4246 May 12  2021 header.pgl
+-rw-r--r--    1 masradione masradione       6590 May 12  2021 home-header.pgl
+-rw-r--r--    1 masradione masradione       1243 May 12  2021 image.txt
+drwxr-xr-x    2 masradione masradione       4096 Apr 11  2022 images
+-rw-r--r--    1 masradione masradione          2 May 12  2021 images.json
+-rw-r--r--    1 masradione masradione      17346 May 12  2021 pagelayer-data.conf
+-rw-r--r--    1 masradione masradione       1592 May 12  2021 pagelayer.conf
+-rw-r--r--    1 masradione masradione     105885 May 12  2021 screenshot.jpg
+drwxr-xr-x    2 masradione masradione       4096 Apr 11  2022 screenshots
+-rw-r--r--    1 masradione masradione       9814 May 12  2021 single-template.pgl
+-rw-r--r--    1 masradione masradione      16087 May 12  2021 softland_275.jpg
+-rw-r--r--    1 masradione masradione       2540 May 12  2021 style.css
